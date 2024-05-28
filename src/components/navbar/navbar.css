@@ -1,0 +1,109 @@
+.navbar-container {
+  padding-left: 10rem;
+  padding-right: 10rem;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.gap {
+  gap: 3rem;
+}
+
+.logo {
+  width: 29.4rem;
+  height: 6rem;
+}
+
+.gap {
+}
+
+/* SEARCHBAR */
+
+.search-box {
+  display: flex;
+  width: 30rem;
+  height: 4rem;
+  align-items: center;
+}
+
+.search-input {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-width: 0;
+  background: #f8f9fa;
+}
+
+.icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 100%;
+  background-color: #8064a2;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.icon {
+  width: 1.6rem;
+  height: 1.6rem;
+  color: white;
+}
+
+/* NavbarBtns */
+
+.btn-box {
+  gap: 2.4rem;
+}
+
+.icon-btn-box {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.circular-icon {
+  /* border-radius: 50%;
+  overflow: hidden; */
+}
+
+.icon-btn-box--icon {
+  color: #939ca3;
+}
+
+.icon-btn-box--text {
+  color: black;
+  font-size: 1.4rem;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 22px;
+  word-wrap: break-word;
+}
+
+.bg-purple {
+  width: 2rem;
+  height: 2rem;
+  background-color: #8064a2;
+  color: white;
+  border-radius: 50%;
+  padding: 2px;
+}
+.icon-btn {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #8064a2;
+}
+
+.signin-btn {
+  padding: 1rem 3.2rem;
+  background: white;
+  border-radius: 8px;
+  border: 1px #8064a2 solid;
+  color: #8064a2;
+  font-size: 1.4rem;
+  /* font-family: Poppins; */
+  font-weight: 600;
+  line-height: 16px;
+  word-wrap: break-word;
+}

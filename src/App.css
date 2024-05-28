@@ -1,0 +1,23 @@
+.max-w-container {
+  min-height: 100vh;
+  margin: 0 auto;
+}
+/* @media (min-width: 360px) {
+  .max-w-container {
+    max-width: 36rem;
+  }
+}
+@media (min-width: 1440px) {
+  .max-w-container {
+    max-width: 144rem;
+    min-height: 100vh;
+    margin: 0 auto;
+  }
+} */
+
+/* 
+@media (max-width: 360px) {
+  .icon-remove {
+    display: none !important;
+  }
+} */

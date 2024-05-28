@@ -1,0 +1,256 @@
+.section-landing {
+  width: 100%;
+  padding: 10rem;
+  background: #f7f5f9;
+  position: relative;
+}
+
+.section-landing > div {
+  gap: 12.4rem;
+}
+
+.about {
+  max-width: 70.6rem;
+  flex-grow: 1;
+}
+
+.primary-heading {
+  color: black;
+  font-size: 36px;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.72px;
+  word-wrap: break-word;
+  margin-bottom: 3.2rem;
+}
+
+.hobby {
+  color: #0096c8;
+}
+.passion {
+  color: #8064a2;
+}
+
+.paragraph-text {
+  color: black;
+  font-size: 1.4rem;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: 3rem;
+  letter-spacing: 0.28px;
+  word-wrap: break-word;
+}
+
+.paragraph-text:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+/* LOGIN */
+
+/* Login.css */
+
+.login-container {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+  display: inline-flex;
+}
+
+.header {
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  display: inline-flex;
+}
+
+.signin {
+  width: 70px;
+  position: relative;
+  color: #8064a2;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.signin::after {
+  content: "";
+  width: 70px;
+  height: 2px;
+  left: 0;
+  top: 32px;
+  position: absolute;
+  background: #8064a2;
+}
+
+.joinin {
+  color: #939ca3;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.providers {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 28px;
+  display: flex;
+  width: 100%;
+}
+
+.provider {
+  width: 100%;
+  padding: 12px;
+  background: #f7f5f9;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px #8064a2 solid;
+  gap: 10px;
+}
+
+.provider-text {
+  color: #08090a;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 16px;
+  word-wrap: break-word;
+}
+
+.google-logo,
+.facebook-logo {
+  width: 16px;
+  height: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* ConnectWith.css */
+
+.separator {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+.separator-line {
+  width: 148px;
+  height: 2px;
+  background: #ced4da;
+}
+
+.separator-text {
+  flex-grow: 1;
+  color: black;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 16px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.credentials {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  display: flex;
+}
+
+.input-container {
+  width: 100%;
+  padding: 12px;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px #ebedf0 solid;
+  gap: 10px;
+}
+
+.input-label {
+  color: #939ca3;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+}
+
+.password-icon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  color: #6d747a;
+}
+
+.width-full {
+  width: 100%;
+}
+.checkbox {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  margin-right: 8px; /* Added margin for spacing */
+}
+
+.remember-me-label {
+  color: black;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+}
+
+.forgot-password {
+  color: black;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+}
+
+.lock-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+  color: #6d747a;
+  margin-right: 8px;
+}
+
+.continue-button {
+  padding-left: 172px;
+  padding-right: 172px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px black solid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+  color: black;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 16px;
+  word-wrap: break-word;
+}
+
+/* People Group Illustration */
+.landing-people-group {
+  position: absolute;
+  bottom: 0;
+}
