@@ -4,7 +4,7 @@ import "./landing-section.css";
 function LandingPage() {
   return (
     <section className="section-landing">
-      <div className="d-flex align-items-start justify-content-between">
+      <div className="landing-wrapper d-flex align-items-start justify-content-between">
         <About />
         <Login />
       </div>

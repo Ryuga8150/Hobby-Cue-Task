@@ -32,7 +32,7 @@ function NavbarBtns() {
       <IoNotifications className="icon-btn" />
       <FaShoppingCart className="icon-btn" />
 
-      <button className="signin-btn">Sign In</button>
+      <button className="signin-btn icon-remove">Sign In</button>
     </div>
   );
 }
