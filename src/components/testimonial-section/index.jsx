@@ -6,7 +6,7 @@ const TestimonialSection = () => {
   return (
     <div className="testimonials-container">
       <div className="testimonials-content">
-        <div className="header d-flex align-items-center justify-content-start">
+        <div className="header d-flex">
           <div className="icon-wrapper d-flex align-items-center justify-content-center">
             <RiDoubleQuotesL className="icon" />
           </div>
@@ -24,7 +24,7 @@ const TestimonialSection = () => {
           safely explore various hobbies and activities in my city, all under
           one roof, is an excellent idea and I highly recommend it.
         </div>
-        <div className="d-flex flex-row-reverse align-items-center justify-content-between">
+        <div className="profile-container d-flex align-items-center justify-content-between">
           <div className="profile d-flex align-items-center">
             <img className="profile-img" src="/profile.jpg" alt="profile" />
             <div className="profile-info d-flex flex-column align-items-center">

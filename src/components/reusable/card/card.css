@@ -7,11 +7,14 @@
   border-radius: 8px;
   border: 1px #ced4da solid;
   padding: 4rem 4.4rem;
+  text-align: center;
 }
 
 .card-header {
   gap: 2.4rem;
   margin-bottom: 2.4rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-icon {
@@ -25,6 +28,7 @@
   font-family: Poppins;
   font-weight: 600;
   word-wrap: break-word;
+  display: block;
 }
 
 .card-description {
@@ -47,4 +51,25 @@
   border-radius: 8px;
   border: 1px #8064a2 solid;
   background-color: white;
+  cursor: pointer;
+}
+
+@media (min-width: 360px) {
+  .card-header {
+  }
+}
+@media (min-width: 480px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1200px) {
+  .card-header {
+    justify-content: start;
+    align-items: center;
+  }
+  .card-container {
+    text-align: left;
+  }
 }

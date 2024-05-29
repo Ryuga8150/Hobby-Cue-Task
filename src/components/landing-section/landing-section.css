@@ -178,7 +178,12 @@
   gap: 10px;
 }
 
-.input-label {
+.input-container:focus {
+  outline: none;
+  border-color: #939ca3;
+}
+
+.input-container::placeholder {
   color: #939ca3;
   font-size: 12px;
   font-family: Poppins;
@@ -187,10 +192,18 @@
   word-wrap: break-word;
 }
 
+.icon-input-container {
+  position: relative;
+  width: 100%;
+}
+
 .password-icon {
   width: 16px;
   height: 16px;
-  position: relative;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
   color: #6d747a;
 }
 

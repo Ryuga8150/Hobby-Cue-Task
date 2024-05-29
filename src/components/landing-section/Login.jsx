@@ -28,14 +28,13 @@ function Login() {
         <div className="separator-line" />
       </div>
       <div className="credentials">
-        <div className="input-container d-flex align-items-center justify-content-between">
+        <input placeholder="Email" className="input-container" />
+        {/* <div className="input-container d-flex align-items-center justify-content-between">
           <div className="input-label">Email</div>
-        </div>
-        <div className="input-container d-flex align-items-center justify-content-between">
-          <div className="input-label">Password</div>
-          <div className="d-flex align-items-center justify-content-center">
-            <FaEyeSlash className="password-icon" />
-          </div>
+        </div> */}
+        <div className="icon-input-container">
+          <input placeholder="Password" className="input-container" />
+          <FaEyeSlash className="password-icon" />
         </div>
       </div>
       <div className="d-flex align-items-center justify-content-between width-full">
